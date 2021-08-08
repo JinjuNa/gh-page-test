@@ -231,7 +231,7 @@ function About() {
 
           <MapContainer>
             <div className="map-api">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d407.7104231112429!2d129.0506361!3d35.1645162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568ebfe65e96a15%3A0x25ec45955163b0b3!2z7ZS87KeA7Lus67Kg7J207Iqk!5e0!3m2!1sko!2skr!4v1592369449905!5m2!1sko!2skr" width="100%" height="100%" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d407.7104231112429!2d129.0506361!3d35.1645162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568ebfe65e96a15%3A0x25ec45955163b0b3!2z7ZS87KeA7Lus67Kg7J207Iqk!5e0!3m2!1sko!2skr!4v1592369449905!5m2!1sko!2skr" width="100%" height="100%" frameBorder="0" allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
             </div>
             <div className="map-text">
               <h5>위치 및 오시는 길</h5>

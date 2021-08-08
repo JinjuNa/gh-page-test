@@ -20,9 +20,9 @@ function App() {
       { mask && (
          <Mask/>
       )}    
-      <Header onShowMask={()=>setMask(true)} onHideMask={()=>setMask(false)}/>
       <SnsBar />
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
+      <Header onShowMask={()=>setMask(true)} onHideMask={()=>setMask(false)}/>
           <Switch>
             <Route exact path='/' component={Main}/>
             <Route path='/about' component={About}/>

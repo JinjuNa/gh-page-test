@@ -23,6 +23,7 @@ import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 import { useCookies } from 'react-cookie';
 import MediaGuide from "../components/MediaGuide";
+import { Link } from "react-router-dom";
 
 const Partition1Conatiner = styled.section`
     padding:30px 0;
@@ -513,7 +514,7 @@ function Main() {
                     수술 후 또는 부상 후에 일상생활이나 현장으로의 복귀가 가능하도록 <br/>다양하고 전문적인 재활 운동을 적용합니다.
                 </div>
                 <div className="program-item-button">
-                    <a href="/program/#1">+더보기</a>
+                    <Link to="/program/#1">+더보기</Link>
                 </div>
             </ScrollAnimation>
             </ProgramItem>
@@ -526,7 +527,7 @@ function Main() {
                     유소년 및 프로선수들에게 더 빠르고, 강하고, <br />파워풀한 퍼포먼스가 가능하게 만들어 드립니다.
                 </div>
                 <div className="program-item-button">
-                    <a href="/program/#2">+더보기</a>
+                    <Link to="/program/#2">+더보기</Link>
                 </div>
             </ScrollAnimation>
             </ProgramItem>
@@ -539,7 +540,7 @@ function Main() {
                     개개인의 목적에 맞는 운동 프로그램을 전문적인 평가에 <br />기반하여 제공해서, 훨씬 더 나은 삶의 질을 누릴 수 있게 해드립니다. 
                 </div>
                 <div className="program-item-button">
-                    <a href="/program/#3">+더보기</a>
+                    <Link to="/program/#3">+더보기</Link>
                 </div>
             </ScrollAnimation>
             </ProgramItem>
@@ -558,72 +559,72 @@ function Main() {
                     <CenterLogoItem className="border-right">
                         <ul>
                             <CenterLogoComponent>
-                                <a href="http://cfsckorea.com" target="_blank" rel="noopener noreferrer">
+                                <Link to="http://cfsckorea.com" target="_blank" rel="noopener noreferrer">
                                 <img src={about_logo1} alt="CFSC" />
                                 <div className="text">
                                     CFSC 미국스트렝스 교육기관
                                 </div>
-                                </a>
+                                </Link>
                             </CenterLogoComponent>
                             <CenterLogoComponent>
-                                <a href="http://www.dnskorea.org" target="_blank" rel="noopener noreferrer">
+                                <Link to="http://www.dnskorea.org" target="_blank" rel="noopener noreferrer">
                                 <img src={about_logo2} alt="DNS" />
                                 <div className="text">
                                     DNS 체코 재활 교육기관
                                 </div>
-                                </a>
+                                </Link>
                             </CenterLogoComponent>
                             <CenterLogoComponent>
-                                <a href="https://pdtr-global.com/" target="_blank" rel="noopener noreferrer">
+                                <Link to="https://pdtr-global.com/" target="_blank" rel="noopener noreferrer">
                                 <img src={about_logo3} alt="P-DTR" />
                                 <div className="text">
                                     P-DTR 미국 재활 교육기관
                                 </div>
-                                </a>
+                                </Link>
                             </CenterLogoComponent>
                             <CenterLogoComponent>
-                                <a href="http://www.stckorea.org" target="_blank" rel="noopener noreferrer">
+                                <Link to="http://www.stckorea.org" target="_blank" rel="noopener noreferrer">
                                 <img src={about_logo4} alt="STC" />
                                 <div className="text">
                                     STC 스트렝스 트레이닝 단체
                                 </div>
-                                </a>
+                                </Link>
                             </CenterLogoComponent>
                         </ul>
                     </CenterLogoItem>
                     <CenterLogoItem>
                         <ul>
                             <CenterLogoComponent>
-                                <a href="http://www.karfe.org" target="_blank" rel="noopener noreferrer">
+                                <Link to="http://www.karfe.org" target="_blank" rel="noopener noreferrer">
                                 <img src={about_logo5} alt="KARFE" />
                                 <div className="text">
                                     KARFE 재활/선수트레이닝 교육기관
                                 </div>
-                                </a>
+                                </Link>
                             </CenterLogoComponent>
                             <CenterLogoComponent>
-                                <a href="http://www.karfe.org" target="_blank" rel="noopener noreferrer">
+                                <Link to="http://www.karfe.org" target="_blank" rel="noopener noreferrer">
                                 <img src={about_logo6} alt="KSFK" />
                                 <div className="text">
                                     한국기능운동학회 스포츠재활연구분야
                                 </div>
-                                </a>
+                                </Link>
                             </CenterLogoComponent>
                             <CenterLogoComponent>
-                                <a href="http://karfe.org/kbsi" target="_blank" rel="noopener noreferrer">
+                                <Link to="http://karfe.org/kbsi" target="_blank" rel="noopener noreferrer">
                                 <img src={about_logo7} alt="KBSI" />
                                 <div className="text">
                                     KBSI 야구스트렝스&컨디셔닝연구소
                                 </div>
-                                </a>
+                                </Link>
                             </CenterLogoComponent>
                             <CenterLogoComponent>
-                                <a href="https://gima.bufs.ac.kr/gima/index.php?pCode=MN100035" target="_blank" rel="noopener noreferrer">
+                                <Link to="https://gima.bufs.ac.kr/gima/index.php?pCode=MN100035" target="_blank" rel="noopener noreferrer">
                                 <img src={about_logo8} alt="BUFS" />
                                 <div className="text">
                                     부산외국어대학교 산학협력기관
                                 </div>
-                                </a>
+                                </Link>
                             </CenterLogoComponent>
                         </ul>
                     </CenterLogoItem>

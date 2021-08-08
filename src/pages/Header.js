@@ -3,6 +3,7 @@ import logo from '../images/logo_white.svg';
 import styled from 'styled-components';
 import x from '../images/x.svg';
 import more from '../images/more.svg';
+import { Link } from "react-router-dom";
 
 const HeaderContainer = styled.header`
     color: #fff;
@@ -177,10 +178,10 @@ const MoMenuStyle = styled.div`
 function Item() {
     return (
         <ul>
-            <li><a href="/about">ABOUT US<div className="ko">센터소개</div></a></li>
-            <li><a href="/trainer">TRAINER<div className="ko">트레이너</div></a></li>
-            <li><a href="/program">TRAINING PROGRAMS<div className="ko">프로그램</div></a></li>
-            <li><a href="/education">EDUCATION<div className="ko">교육</div></a></li>
+            <li><Link to="/about">ABOUT US<div className="ko">센터소개</div></Link></li>
+            <li><Link to="/trainer">TRAINER<div className="ko">트레이너</div></Link></li>
+            <li><Link to="/program">TRAINING PROGRAMS<div className="ko">프로그램</div></Link></li>
+            <li><Link to="/education">EDUCATION<div className="ko">교육</div></Link></li>
         </ul>
     )
 }
@@ -208,7 +209,7 @@ function Header( props ) {
     <HeaderContainer>
         <div className="pc-menu-container">
             <div className="wrap inner-wrap">
-                <h1><a href="/"><img src={logo} alt="" /></a></h1>
+                <h1><Link to="/"><img src={logo} alt="" /></Link></h1>
                 <nav>
                     <Item></Item>
                 </nav>
@@ -224,7 +225,7 @@ function Header( props ) {
                     </nav>
                 </div>
                 <div className="center">
-                    <a href="/"><img src={logo} alt="" className="logo"/></a>
+                    <Link to="/"><img src={logo} alt="" className="logo"/></Link>
                 </div>
                 <div className="right"></div>         
             </div>
